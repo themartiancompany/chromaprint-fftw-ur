@@ -10,7 +10,7 @@ _pkgname="${_pkg}-${_backend}"
 pkgname="${_pkgname}"
 pkgver=1.5.1
 pkgrel=2
-pkgdesc=(
+_pkgdesc=(
   "Library for extracting fingerprints from"
   "any audio source (uses fftw for FFT"
   "calculations instead of ffmpeg)"
